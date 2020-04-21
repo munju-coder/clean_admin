@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="utf-8">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="CleanFood Admin">
+		<meta name="author" content="onOff">
+        
+        <title>Admin</title>
+        
+        <!--CSS-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="../js/COMMON.js"></script>
+        <script src="../js/header.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+        <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('article');
+        document.createElement('section');
+        document.createElement('aside');
+        document.createElement('footer');            
+        </script>        
+        <![endif]-->
+        <!--[if lt IE 8]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+		<!--[if IE 7]>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+        <![endif]-->
+	</head>
+
+	<body>
+
+        <div class="wrap">
+
+            <div class="header">
+
+                <div class="w_1200">
+                    <div class="hd_logo"><a href="#"><img src="../images/logo.png" alt="CleanFood logo"></a></div>
+    
+                    <div class="hd_user text_a_r">
+                        <a href="#">관리자님<i class="fas fa-angle-down"></i></a>
+                        <a href="#"><img src="../images/icons_a.png" alt="icon_a"></a>
+                        <a href="#"><img src="../images/icons_b.png" alt="icon_b"></a>
+                        <a href="#"><img src="../images/icons_c.png" alt="icon_c"></a>
+                        <a href="#"><img src="../images/icons_d.png" alt="icon_d"></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="w_1200">
+
+                <div class="c_menu">
+                    <ul>
+                        <li class="c_52"><a href="">메인</a><img src="../images/icons1.png" alt="menu_icon1"></li>
+                        <li class="c_52"><a href="">회원정보</a><img src="../images/icons2.png" alt="menu_icon2"></li>
+                        <li class="c_52 main_menu">
+                            <a href="#">매출정보<img src="../images/icons3.png" alt="menu_icon3"></a>
+                            <ul class="sub_menu">
+                                <li class="sub_li"><a class="sub_a" href="#">디자이너</a></li>
+                                <li class="sub_li"><a class="sub_a" href="#">매출정보</a></li>
+                              </ul>
+                        </li>
+                        <li class="c_52"><a href="">정산정보<img src="../images/icons4.png" alt="menu_icon4"></a></li>
+                        <li class="c_52"><a href="">수수료<img src="../images/icons5.png" alt="menu_icon5"></a></li>
+                        <li class="c_52"><a href="">계좌정보<img src="../images/icons6.png" alt="menu_icon6"></a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+            
+            <div class="content">
+                
+                <div class="w_1200">
+
+
+                    <div class="c_top font_s_23b">
+                        매출정보 <span class="font_s_15">매출정보 조회 </span>
+                    </div>
+
+                    <div class="search_box">
+
+                        <form id = "search_form" action="" method = "get">
+
+                           <div class="search_in_box">
+                                <div class="sib_calendar_box">
+                                    <select name="" id="">
+                                        <option value="">지급일</option>
+                                    </select>
+
+                                    <input type="text" name="" id="">
+
+                                    <span>-</span>
+
+                                    <input type="text" name="" id="">
+
+                                    <select name="" id="">
+                                        <option value="">2020-04-20</option>
+                                    </select>
+
+                                    <label class="labl">
+                                        <input type="radio" name="radioname" value="one_value" checked="checked"/>
+                                        <div>오늘</div>
+                                    </label>
+
+                                    <label class="labl">
+                                        <input type="radio" name="radioname" value="another" />
+                                        <div>3일</div>
+                                    </label>
+
+                                    <label class="labl">
+                                        <input type="radio" name="radioname" value="another" />
+                                        <div>1주</div>
+                                    </label>
+
+                                    <label class="labl">
+                                        <input type="radio" name="radioname" value="another" />
+                                        <div>1개월</div>
+                                    </label>
+
+                                    <select name="" id="" class="month_side">
+                                        <option value="">10줄</option>
+                                    </select>
+                                    
+                                    <style>
+
+                                    </style>
+                                </div>
+
+                                <div class="sib_select_box store_name">
+                                    <select name="" id="">
+                                        <option value="">결제사</option>
+                                    </select>
+
+                                    <select name="" id="">
+                                        <option value="">가맹점명</option>
+                                    </select>
+
+                                    <input type="text" name="" id="">
+
+                                    <select name="" id="" class="select_date">
+                                        <option value="">지급일</option>
+                                    </select>
+
+                                    <select name="" id="">
+                                        <option value="">가맹점분류</option>
+                                    </select>
+                                </div>
+                           </div>
+
+                            <div class="search_btn text_a_c">
+                                <input type="submit" value="검색">
+                                <input type="button" value="초기화">
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div class="total c_bf text_a_r font_s_17">
+                        <div>총 <strong>40건</strong> / 1,6000,000원</div>
+                    </div>
+
+                    <div class="c_middle">
+                        
+                        <div class="cm_top">
+                            <div class="cmt_left">
+                                <ul>
+                                    <li>
+                                        <select name="" id="">
+                                            <option value="">20</option>
+                                            <option value="">40</option>
+                                        </select>
+                                    </li>
+                                    <li class = "font_s_15b">총 40건</li>
+                                </ul>
+                            </div>
+                            <div class="cmt_right">
+                                <div class="excel_export_btn">엑셀<i class="fas fa-download"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="cm_middle">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>번호</th>
+                                        <th>단말기ID</th>
+                                        <th>업체명</th>
+                                        <th>매입사</th>
+                                        <th>가맹점번호</th>
+                                        
+                                        <th>거래일시</th>
+                                        <th>카드번호</th>
+                                        <th>승인번호</th>
+                                        <th>거래구분</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>zzz</td>
+                                        <td>개똥이네</td>
+                                        <td>말똥이네</td>
+                                        <td>123456</td>
+
+                                        <td>2020-04-20</td>
+                                        <td>5987789658</td>
+                                        <td>159753456</td>
+                                        <td>메롱~</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td>aaa</td>
+                                        <td>소똥이네</td>
+                                        <td>말똥이네</td>
+                                        <td>123456</td>
+
+                                        <td>2020-04-21</td>
+                                        <td>5987789658</td>
+                                        <td>159753456</td>
+                                        <td>zzz~</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="cm_bottom"></div>
+
+                    </div>                         
+
+                    <div class="c_bottom">
+                        <div class="page">
+                            <a href="#"><</a>
+
+                            <a href="#" class = "p_active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+
+                            <a href="#">6</a>
+                            <a href="#">7</a>
+                            <a href="#">8</a>
+                            <a href="#">9</a>
+                            <a href="#">10</a>
+
+
+                            <a href="#">></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <div class="w_1200">
+                    <div class="ft_logo"><a href="#"><img src="../images/onofflogo.png" alt="onoff_logo"></a></div>
+                    <div class="ft_text"></div>
+                </div>                
+            </div>
+
+        </div>
+        
+    </body>
+</html>    
